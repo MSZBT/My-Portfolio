@@ -1,0 +1,64 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+* {
+	font-family: 'Prompt', sans-serif;
+	font-family: 'Rubik', sans-serif;
+}
+.secondProjectBlock {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    border-bottom: 2px solid gray;
+}
+.secondProjectBlock:nth-child(1) {
+    border-top: 2px solid gray;
+}
+
+.imageBlock {
+    width: auto;
+    height: 100px;
+
+
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin: 10px;
+    width: 150px;
+    height: 100px;
+}
+
+.secondProjectBlock:nth-child(1) .imageBlock .logo {
+    background-image: url('/Images/VtbLogo.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+}
+
+.secondProjectBlock:nth-child(2) .imageBlock .logo {
+    background-image: url('/Images/sberLogo.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+.secondProjectBlock:nth-child(3) .imageBlock .logo {width: 300px;}
+.secondProjectBlock:nth-child(3) .imageBlock .logo {
+    background-image: url('/Images/VkLogo.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+.secondProjectBlock:nth-child(4) .imageBlock .logo {width: 300px;}
+.secondProjectBlock:nth-child(4) .imageBlock .logo {
+    background-image: url('/Images/tinkoffLogoSecond.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+.imageBlock h1 {
+    margin-left: 20px;
+}
+
+.secondProjectBlock p {font-size: 30px; margin: 10px; font-weight: 500;}
